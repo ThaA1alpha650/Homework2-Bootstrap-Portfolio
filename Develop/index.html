@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- We need to bring in the bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- and now apply custom styling for this particular project -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>About Me page for Portfolio Homework</title>
+</head>
+
+<body>
+    <!-- TODO: make navbar and footer live in just one place and get pulled into individual pages -->
+    <!-- navBar -->
+    <nav class="navbar navbar-expand-sm d-flex justify-content-center">
+        <a class="navbar-brand" href="#">Luc Jean Foglizzo</a>
+        <nav class="nav">
+            <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </nav>
+    </nav>
+
+    <!--containers in bootstrap give extra padding -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1" id="column-one"></div>
+            <div class="col-sm-10" id="column-two">
+                <!-- this will center it, to make it less than that, use @media-->
+                <!-- content section -->
+                <section class="contentSection">
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                            <h1>Meet Luc </h1>
+                            <hr class="purple" />
+                            <img src="../Assets/Images/Luc-Foglizzo1.jpeg" class="wrapTextUnder" id="profilePic" alt="Diana Stebbins profile picture">
+
+                            <p style="text-align: justify">
+                                Hi my name is Luc Foglizzo, I was formerly a welding apprentice and very much enjoyed it and looked forward to becoming a Welder but that was taking 5 years. Unfortunately for me at the time things didn't end up working out for me at the Union.
+                            </p>
+                            <p style="text-align: justify">
+                                I have 18 years experience as a software developer working on a variety of projects and platforms. My first development experiences were programming handheld scanners in C, VB.net, C# and java. I then spent many years adding functionality to a complex
+                                order management system web application written primarily in java and javascript and supported by a number of proprietary libraries (database orm, communication, user authorization).
+                            </p>
+                            <p style="text-align: justify">
+                                While part of that project team, I also proposed and designed some new features. One ended up being extremely popular with customer users, and another greatly reduced setup time of new accounts while adding visibility of those setups to teams outside
+                                of development who needed it.
+                            </p>
+                            <p style="text-align: justify">
+                                With the aging of the application into more of a maintenance mode however, I wanted to take on bigger development challenges. Recognizing that my skills were dated, I enrolled in the Full Stack Web Development Bootcamp offered at UW Extension. I have
+                                learned many new technologies and have been able to immediately apply them to several projects. You can check out some of my projects by visiting the Portfolio page.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="card">
+                                <div class="card-header">
+                                    Technical Skills
+                                </div>
+                                <div class="card-body">
+                                    <ul>
+                                        <li>HTML, Handlebars</li>
+                                        <li>CSS, Bootstrap</li>
+                                        <li>JavaScript, jQuery</li>
+                                        <li>API calls, AJAX, JSON</li>
+                                        <li>Node.js, express server</li>
+                                        <li>MySQL, Sequelize, MongoDB</li>
+                                        <li>MVC, OOP</li>
+                                        <li>Java, C#, VB.net, C++, C</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <large class="text-muted"></large>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card">
+                                <div class="card-header">
+                                    Professional Skills
+                                </div>
+                                <div class="card-body">
+                                    <ul>
+                                        <li>Strong attention to detail</li>
+                                        <li>Proven evaluation and analysis abilities</li>
+                                        <li>Critical thinking and problem-solving skills</li>
+                                        <li>Exemplary time and project management skills</li>
+                                        <li>Excellent written and verbal communication skills</li>
+                                        <li>Proven trouble-shooting and bug resolution abilities</li>
+                                        <li>Experienced working as part of a team toward a singular goal</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <large class="text-muted"></large>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-1" id="column-three"></div>
+        </div>
+    </div>
+
+    <footer>
+        <h4>
+            <a class="ftr-link" target="_blank" href="https://github.com/dianastebbins">
+                <i class="fab fa-github"></i> GitHub</a>
+            <a class="ftr-link" target="_blank" href="https://www.linkedin.com/in/diana-stebbins-b618b034">
+                <i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            <a class="ftr-link" target="_blank" href="assets/Resume.pdf">
+                <i class="fas fa-file"></i> Resume</a>
+            <a class="ftr-info"><i class="fas fa-phone-square"></i> 206-349-3212</a>
+            <a class="ftr-info"><i class="fas fa-envelope-square"></i> dianastebbins@yahoo.com</a>
+        </h4>
+    </footer>
+
+    <!-- Here we bring in some scripts required to allow some Bootstrap components to work. -->
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/4dd6e48c89.js" crossorigin="anonymous"></script>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!--- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
