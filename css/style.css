@@ -42,6 +42,7 @@
                                                     .card,
                                                     .card-img-top {
                                                         margin-bottom: 10px;
+                                                        padding-left: 3px;
                                                     }
                                                     
                                                     .card-footer,
