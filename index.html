@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- We need to bring in the bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- and now apply custom styling for this particular project -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>About Me page for Portfolio Homework</title>
+</head>
+
+<body>
+    <!-- TODO: make navbar and footer live in just one place and get pulled into individual pages -->
+    <!-- navBar -->
+
+    <nav class="navbar navbar-expand-sm d-flex justify-content-right">
+        <div class="row">
+            <a class="navbar-brand" href="#">Luc Jean Foglizzo</a>
+            <nav class="nav" id="navnav">
+                <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </nav>
+
+    <!--containers in bootstrap give extra padding -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2" id="column-one"></div>
+            <div class="col-sm-8" id="column-two">
+                <!-- this will center it, to make it less than that, use @media-->
+                <!-- content section -->
+                <section class="contentSection">
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                            <h1>Meet Luc </h1>
+                            <hr class="purple" />
+                            <img src="../Assets/Images/Luc-Foglizzo1.jpeg" class="wrapTextUnder" id="profilePic" alt="Luc Foglizzo profile picture">
+
+                            <p style="text-align: justify">
+                                Hi my name is Luc Foglizzo, I was formerly a welding apprentice and very much enjoyed it and looked forward to becoming a Welder but that was taking 5 years. Unfortunately for me at the time things didn't end up working out for me at the Union.
+                            </p>
+                            <p style="text-align: justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti error eaque aperiam! Reiciendis hic sequi saepe atque rerum ipsam cumque earum ipsum! Magni vitae inventore officia distinctio ipsa ipsam iure?</p>
+                            <p style="text-align: justify">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum nesciunt provident rerum dignissimos enim atque aliquam ea assumenda unde molestias nam eius, impedit, est, autem expedita? Voluptas id dolor deserunt.
+                            </p>
+                            <p style="text-align: justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et recusandae deserunt ipsam ex repudiandae quidem laudantium totam. Quod ab nihil, consequatur quam fugit minima modi temporibus, nisi vero distinctio nostrum. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Technical Skills
+                                </div>
+                                <div class="card-body">
+                                    <ul>
+                                        <li>Welding</li>
+                                        <li>Good with computers,computer literate</li>
+                                        <li>Light photo and video editing</li>
+                                        <li>Setting up a home network and basic firewall</li>
+                                        <li>Driving a tractor</li>
+                                        <li>Creative & business writing</li>
+                                        <li>Good learner</li>
+                                        <li>Comfortable on both Mac and PC</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <large class="text-muted"></large>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Professional Skills
+                                </div>
+                                <div class="card-body">
+                                    <ul>
+                                        <li>Strong attention to detail</li>
+                                        <li>Great customer service skills, front desk skills</li>
+                                        <li>Critical thinking and problem-solving skills</li>
+                                        <li>Positive team management skills and maneuvering delegation of tasks</li>
+                                        <li>Excellent written and verbal communication skills</li>
+                                        <li>Proven trouble-shooting and bug resolution abilities</li>
+                                        <li>Very open minded, being fluent in French and having lived in other countrie</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <large class="text-muted"></large>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-2" id="column-three"></div>
+        </div>
+    </div>
+
+    <footer>
+        <h4>
+            <a class="ftr-link" target="_blank" href="https://github.com/ThaA1alpha650">
+                <i class="fab fa-github"></i> GitHub</a>
+            <a class="ftr-link" target="_blank" href="https://github.com/ThaA1alpha650">
+                <i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            <a class="ftr-link" target="_blank" href="">
+                <i class="fas fa-file"></i> Resume</a>
+            <a class="ftr-info"><i class="fas fa-phone-square"></i> 925-871-9184</a>
+            <a class="ftr-info"><i class="fas fa-envelope-square"></i> lucjmfoggy@gmail.com</a>
+        </h4>
+    </footer>
+
+    <!-- Here we bring in some scripts required to allow some Bootstrap components to work. -->
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/4dd6e48c89.js" crossorigin="anonymous"></script>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!--- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
